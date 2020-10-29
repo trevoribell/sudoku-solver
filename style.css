@@ -119,15 +119,14 @@ caption {
 
 #errmsg {
     position: absolute;
-    font-family: Calibri, sans-serif;
+    font-family: 'Staatliches', cursive;
     font-size: 15px;
     background:#ff6d5f;
     z-index:-1;
     width:100%;
     left: 50%;
     top: 10%;
-    
--webkit-transform: translate(-50%, -10%);
+    -webkit-transform: translate(-50%, -10%);
     transform: translate(-50%, -10%);
     text-align:center;
     padding-top: 10px;
