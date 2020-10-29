@@ -61,7 +61,8 @@ input[type="text"]:focus {
     background:#9c8b63;
     box-shadow:none;
     border-radius:0px;
-    font-family: Helvetica;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
 }
 
 #clear {
