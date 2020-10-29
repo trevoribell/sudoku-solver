@@ -1,0 +1,167 @@
+body {
+    background-color:#e8c98c;
+}
+
+input[type="text"] {
+    background-color:#f0dcb4;
+}
+
+.content {
+    background-color:#f0dcb4;
+    padding:80px;
+    border-radius:50px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Calibri, sans-serif;
+}
+
+colgroup, tbody {
+    border: solid medium;
+}
+
+td {
+    border: solid thin;
+    height: 1.4em;
+    width: 1.4em;
+    text-align: center;
+    padding: 0;
+}
+
+input[type="text"] {
+    width: 20px;
+    border: 0;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    -webkit-transform: translate(-50%, -25%);
+    transform: translate(-50%, -25%);
+    z-index:10
+}
+
+#solve, #reset {
+    width:75%;
+    float:left;
+    height:40px;
+    margin-top:10px;
+    border:none;
+    outline:none;
+    background:#9c8b63;
+    box-shadow:none;
+    border-radius:0px;
+    font-family: Helvetica;
+}
+
+#clear {
+    width:20%;
+    float:right;
+    height:40px;
+    margin-top:10px; 
+    border:none;
+    outline:none;
+    background:#9c8b63;
+    box-shadow:none;
+    border-radius:0px;
+}
+
+#solve:focus, #reset:focus, #clear:focus {
+    border:none;
+    outline:none;
+    background:#b8ac8f;
+    box-shadow:none;
+    border-radius:0px;
+}
+
+#solve:hover, #reset:hover, #clear:hover {
+    border:none;
+    outline:none;
+    background:#b8ac8f;
+    box-shadow:none;
+    border-radius:0px;
+    cursor:pointer;
+}
+
+#solve:active, #reset:active, #clear:active {
+    border:none;
+    outline:none;
+    background:#b8ac8f;
+    box-shadow:none;
+    border-radius:0px;
+}
+
+.enteredVal {
+    font-weight:bold;
+    background:#9c8b63;
+}
+
+#title {
+    text-align:center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+
+caption {
+    font-size:15px;
+}
+
+#errmsg {
+    position: absolute;
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    background:#ff6d5f;
+    z-index:-1;
+    width:100%;
+    left: 50%;
+    top: 10%;
+    
+-webkit-transform: translate(-50%, -10%);
+    transform: translate(-50%, -10%);
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

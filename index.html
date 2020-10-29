@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <script defer src="sudoku.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content">
+            <div id="errmsg" class="hidden">Current board cannot be solved</div>
+            <div id="title">Sudoku Solver</div>
+            <div id="inputbox">
+                <table>
+                  <caption>Enter puzzle to be solved:</caption>
+                  <colgroup><col><col><col>
+                  <colgroup><col><col><col>
+                  <colgroup><col><col><col>
+                  <tbody>
+                   <tr><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)">
+                   <tr><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)">
+                   <tr><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)">
+                  <tbody>
+                   <tr><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)">
+                   <tr><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)">
+                   <tr><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)">
+                  <tbody>
+                   <tr><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)">
+                   <tr><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)">
+                   <tr><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)"><td><input type="text" maxlength="1" class="aa" onkeypress="return isNumberKey(event)">
+                </table>
+                <button type="button" id="clear">C</button>
+                <button type="button" id="solve">Solve</button>
+            </div>
+            <div id="solution" class="hidden">
+                <table>
+                  <caption>Solution:</caption>
+                  <colgroup><col><col><col></colgroup>
+                  <colgroup><col><col><col></colgroup>
+                  <colgroup><col><col><col></colgroup>
+                  <tbody>
+                   <tr> <td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td>
+                   <tr> <td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td>
+                   <tr> <td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td>
+                  <tbody>
+                   <tr> <td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td>
+                   <tr> <td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td>
+                   <tr> <td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td>
+                  <tbody>
+                   <tr> <td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td>
+                   <tr> <td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td>
+                   <tr> <td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td><td class="bb"></td>
+                </table>
+                <button type="button" id="reset">Reset</button>
+            </div>
+        </div>
+    </body>
+</html>
